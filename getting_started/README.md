@@ -1,4 +1,4 @@
 ---
 description: Highly checking out
 ---
-# Getting Started
+# Quick Start
