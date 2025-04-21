@@ -1,5 +1,3 @@
-# Mouse
-
 # Get
 
 ## GetMousePosition

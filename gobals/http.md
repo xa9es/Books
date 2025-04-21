@@ -1,5 +1,3 @@
-# HTTP
-
 ## HttpGet
 ```lua
 httpget(url)

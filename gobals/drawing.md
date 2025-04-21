@@ -1,9 +1,7 @@
-# Drawing Library
-
-The Drawing library provides functions for creating and manipulating 2D graphics elements on the screen overlay.
-
+---
+description: The Drawing library provides functions for creating and manipulating 2D graphics elements on the screen overlay.
+---
 # Methods
-
 ## Drawing.new
 ```lua
 Drawing.new(type)

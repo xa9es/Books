@@ -1,7 +1,6 @@
-# Memory/Internal Functions
-
-Functions for low-level memory access and manipulation.
-
+---
+description: Functions for low-level memory access and manipulation.
+---
 # Types
 - `qword` - 64-bit unsigned integer
 - `dword` - 32-bit unsigned integer

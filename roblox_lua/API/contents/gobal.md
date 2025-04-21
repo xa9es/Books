@@ -1,5 +1,3 @@
-# Predefined Gobal
-
 ## game
 ```javascript
 game

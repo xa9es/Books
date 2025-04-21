@@ -1,6 +1,3 @@
-# Get
-
-# Methods
 ## Value
 ```lua
 getvalue(userdata)

@@ -1,9 +1,6 @@
 ---
 description: This primarily for storing character-related information, used for gameplay logic such as targeting, visualization, and status tracking.
 ---
-
-# Model Data Structures
-
 ## Model Data Structure
 Defines the structure for storing character-related information, used for gameplay logic such as targeting, visualization, and status tracking.
 

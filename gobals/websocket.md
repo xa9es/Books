@@ -1,7 +1,3 @@
-# Network
-
-# Methods
-
 ## WebSocket_Connect
 ```lua
 websocket_connect(url)

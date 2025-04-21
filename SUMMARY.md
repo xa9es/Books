@@ -29,7 +29,7 @@
 
 ## LuaU
 * [API](lua_u/API/README.md)
-    * [Gobal](lua_u/API/contents/gobal.md)
+    * [Global](lua_u/API/contents/gobal.md)
     * [Get](lua_u/API/contents/get.md)
     * [Set](lua_u/API/contents/set.md)
     * [Memory](lua_u/API/contents/memory.md)

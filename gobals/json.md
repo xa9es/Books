@@ -1,5 +1,3 @@
-# JSON
-
 ## JSON Encode
 ```javascript
 JSONEncode(table)

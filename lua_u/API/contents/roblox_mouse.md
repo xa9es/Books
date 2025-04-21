@@ -1,4 +1,3 @@
-# Roblox Mouse
 # Get
 
 ## GetMouseLocation

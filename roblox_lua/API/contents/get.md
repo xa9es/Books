@@ -1,7 +1,4 @@
 # Get
-
-# Methods
-
 ## Find First Child
 ```lua
 instance:FindFirstChild(string)
