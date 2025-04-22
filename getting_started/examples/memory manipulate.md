@@ -1,7 +1,7 @@
 # Memory Manipulate
 
 {% hint style="warning" %}
-Offsets uses in examples might be outdated
+Offsets uses in examples are OUTDATED, take them as syntax examples
 {% endhint %}
 
 ### Fake Client-Side Headless
@@ -12,13 +12,12 @@ You either need to zoom in max and out OR execute the script upon resetting on y
 
 {% code title="headless.lua" overflow="wrap" %}
 ```lua
--- Modify the head mesh rendering by changing primitive size values to 0
 local head = game.Players.localPlayer.Character.Head
-local primitive_ptr = head:getmemoryvalue(0x160, "qword")
+local primitive_ptr = head:GetMemoryValue(0x160, "qword")
 local primitive_ptr_data = pointer_to_table_data(primitive_ptr)
-primitive_ptr_data:setmemoryvalue(0x2ac, "float", 0) -- x
-primitive_ptr_data:setmemoryvalue(0x2ac, "float", 0) -- y
-primitive_ptr_data:setmemoryvalue(0x2ac, "float", 0) -- z
+primitive_ptr_data:SetMemoryValue(0x2ac, "float", 0) -- x
+primitive_ptr_data:SetMemoryValue(0x2ac, "float", 0) -- y
+primitive_ptr_data:SetMemoryValue(0x2ac, "float", 0) -- z
 ```
 {% endcode %}
 
