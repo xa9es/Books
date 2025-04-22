@@ -3,15 +3,17 @@
 * [Welcome](README.md)
 
 ## Getting Started
+
 * [Quick Start](getting_started/README.md)
-    * [Script Locations](getting_started/scripts_location/README.md)
-    * [Lua Styles](getting_started/lua_style/README.md)
-    * [Examples](getting_started/examples/README.md)
-        * [Watermark](getting_started/examples/watermark.md)
-        * [Memory Manipulate](getting_started/examples/memory%20manipulate.md)
-        * [Basic Mouse Aimbot](getting_started/examples/basic_mouse_aimbot.md)
+  * [Script Locations](getting_started/scripts_location/README.md)
+  * [Lua Styles](getting_started/lua_style/README.md)
+  * [Examples](getting_started/examples/README.md)
+    * [Watermark](getting_started/examples/watermark.md)
+    * [Memory Manipulate](<getting_started/examples/memory manipulate.md>)
+    * [Basic Mouse Aimbot](getting_started/examples/basic_mouse_aimbot.md)
 
 ## Global
+
 * [Utility](gobals/utility.md)
 * [Drawing](gobals/drawing.md)
 * [Model Data](gobals/model_data.md)
@@ -21,23 +23,25 @@
 * [Json](gobals/json.md)
 
 ## Roblox Lua
+
 * [API](roblox_lua/API/README.md)
-    * [Instance](roblox_lua/API/contents/instance.md)
-    * [Player](roblox_lua/API/contents/player.md)
-    * [Transform](roblox_lua/API/contents/transform.md)
-    * [Mouse](roblox_lua/API/contents/mouse.md)
-    * [Camera](roblox_lua/API/contents/camera.md)
-    * [Humanoid](roblox_lua/API/contents/humanoid.md)
-    * [Memory](roblox_lua/API/contents/memory.md)
-    * [Global](roblox_lua/API/contents/global.md)
+  * [Instance](roblox_lua/API/contents/instance.md)
+  * [Player](roblox_lua/API/contents/player.md)
+  * [Transform](roblox_lua/API/contents/transform.md)
+  * [Mouse](roblox_lua/API/contents/mouse.md)
+  * [Camera](roblox_lua/API/contents/camera.md)
+  * [Humanoid](roblox_lua/API/contents/humanoid.md)
+  * [Memory](roblox_lua/API/contents/memory.md)
+  * [Global](roblox-lua/api/global.md)
 
 ## LuaU
+
 * [API](lua_u/API/README.md)
-    * [Instance](lua_u/API/contents/instance.md)
-    * [Player](lua_u/API/contents/player.md)
-    * [Transform](lua_u/API/contents/transform.md)
-    * [Mouse](lua_u/API/contents/mouse.md)
-    * [Camera](lua_u/API/contents/camera.md)
-    * [Humanoid](lua_u/API/contents/humanoid.md)
-    * [Memory](lua_u/API/contents/memory.md)
-    * [Global](lua_u/API/contents/global.md)
+  * [Instance](lua_u/API/contents/instance.md)
+  * [Player](lua_u/API/contents/player.md)
+  * [Transform](lua_u/API/contents/transform.md)
+  * [Mouse](lua_u/API/contents/mouse.md)
+  * [Camera](lua_u/API/contents/camera.md)
+  * [Humanoid](lua_u/API/contents/humanoid.md)
+  * [Memory](lua_u/API/contents/memory.md)
+  * [Global](luau/api/global.md)
