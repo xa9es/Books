@@ -1,11 +1,29 @@
-## JSON Encode
-```javascript
+---
+description: Functions for JSON encoding and decoding
+---
+
+# JSON
+
+## Methods
+
+### JSONEncode
+```lua
 JSONEncode(table)
 ```
-Returns the contents of the table in a JSON formatted string. `string`
+Converts a Lua table to a JSON formatted string.
 
-## JSON Decode
-```javascript
+Parameters:
+* <kbd><mark style="color:green;">**table**</mark></kbd>`table`: The table to encode
+
+Returns: <kbd><mark style="color:yellow;">**string**</mark></kbd> JSON formatted string
+
+### JSONDecode
+```lua
 JSONDecode(string)
 ```
-Returns the contents of your JSON formatted string as a table, making the contents are easily accessible. `table`
+Converts a JSON formatted string to a Lua table.
+
+Parameters:
+* <kbd><mark style="color:yellow;">**string**</mark></kbd>`string`: The JSON string to decode
+
+Returns: <kbd><mark style="color:green;">**table**</mark></kbd> Decoded table

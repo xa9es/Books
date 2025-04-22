@@ -46,18 +46,6 @@ Parameters:
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
 
-Example:
-```lua
-local data = {
-    Username = "Player1",
-    Displayname = "CoolPlayer",
-    Userid = 123456,
-    Character = workspace.Player1.Character.Data,
-    PrimaryPart = workspace.Player1.Character.HumanoidRootPart.Data,
-    -- additional fields from above...
-}
-add_model_data(data, "key_1")
-```
 
 # Edit Model
 Defines a partial data structure intended to update specific fields of an existing model data.
@@ -86,15 +74,6 @@ Parameters:
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
 
-## Example:
-```lua
-local edit = {
-    Health = 50,
-    MaxHealth = 100,
-    Whitelisted = true
-}
-edit_model_data(edit, "key_1")
-```
 
 # Remove Model
 
@@ -148,17 +127,6 @@ Parameters:
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
 
-Example:
-```lua
-local data = {
-    LocalPlayer = Player,
-    Username = "LocalUser",
-    Displayname = "LocalDisplay",
-    -- additional fields from above...
-}
-override_local_data(data)
-```
-
 ## Clear Local Model
 ```lua
 clear_local_data()
@@ -166,3 +134,5 @@ clear_local_data()
 Removes all created local data.
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
+
+# Examples

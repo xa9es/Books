@@ -10,6 +10,8 @@
   * [Examples](getting_started/examples/README.md)
     * [Watermark](getting_started/examples/watermark.md)
     * [Memory Manipulate](<getting_started/examples/memory manipulate.md>)
+    * [Add Model Data To Severe](getting_started/examples/Add%20Local%20Player%20To%20Model%20Cache.md)
+    * [Gif](getting_started/examples/Gif_loading.md)
     * [Basic Mouse Aimbot](getting_started/examples/basic_mouse_aimbot.md)
 
 ## Global

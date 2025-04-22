@@ -1,45 +1,56 @@
-## WebSocket_Connect
+---
+description: Functions for WebSocket communication
+---
+
+# WebSocket
+
+## Methods
+
+### WebSocket_Connect
 ```lua
 websocket_connect(url)
 ```
-Connects to a WebSocket server at the specified URL
+Connects to a WebSocket server at the specified URL.
 
-## WebSocket_OnMessage
+Parameters:
+* <kbd><mark style="color:yellow;">**string**</mark></kbd>`url`: The WebSocket server URL
+
+Returns: <kbd><mark style="color:brown;">**websocket**</mark></kbd> WebSocket connection object
+
+### WebSocket_OnMessage
 ```lua
 websocket_onmessage(websocket, callback)
 ```
-Sets a callback function to handle incoming messages from the WebSocket 
+Sets a callback function to handle incoming messages from the WebSocket.
 
-## WebSocket_Send
+Parameters:
+* <kbd><mark style="color:brown;">**websocket**</mark></kbd>`websocket`: The WebSocket connection
+* <kbd><mark style="color:pink;">**function**</mark></kbd>`callback`: Function to handle incoming messages
+  * Callback receives: <kbd><mark style="color:yellow;">**string**</mark></kbd>`message`
+
+Returns: <kbd><mark style="color:orange;">**void**</mark></kbd>
+
+### WebSocket_Send
 ```lua
 websocket_send(websocket, message)
 ```
-Sends a string message to the connected WebSocket
+Sends a string message to the connected WebSocket.
 
-## WebSocket_Close
+Parameters:
+* <kbd><mark style="color:brown;">**websocket**</mark></kbd>`websocket`: The WebSocket connection
+* <kbd><mark style="color:yellow;">**string**</mark></kbd>`message`: Message to send
+
+Returns: <kbd><mark style="color:orange;">**void**</mark></kbd>
+
+### WebSocket_Close
 ```lua
 websocket_close(websocket)
 ```
-Closes the connection with the WebSocket
+Closes the connection with the WebSocket.
 
-# Examples
+Parameters:
+* <kbd><mark style="color:brown;">**websocket**</mark></kbd>`websocket`: The WebSocket connection to close
 
-## WebSocket Example
-```lua
--- Connect to a WebSocket server
-local ws = websocket_connect("ws://severe-websocket-test.glitch.me")
+Returns: <kbd><mark style="color:orange;">**void**</mark></kbd>
 
--- Set up a message handler
-websocket_onmessage(ws, function(msg)
-    warn(msg)
-end)
-
--- Send a message
-websocket_send(ws, "Hello World!")
-
--- Wait for 1 second
-wait(1)
-
--- Close the connection
-websocket_close(ws)
-``` 
+See: [@examples/memory_manipulate](../examples/memory%20manipulate.md) for WebSocket usage examples. 
