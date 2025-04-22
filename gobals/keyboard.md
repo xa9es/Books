@@ -2,7 +2,9 @@
 {% hint style="hint" %}
 Virtual key codes reference: [Microsoft Documentation](https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes)
 {% endhint %}
+
 # Get
+
 ## GetPressedKey
 ```lua
 getpressedkey()
