@@ -1,14 +1,16 @@
+# Memory Manipulate
 
 {% hint style="warning" %}
 Offsets uses in examples might be outdated
 {% endhint %}
 
-## Fake Client-Side Headless
+### Fake Client-Side Headless
 
-{% hint style="hint" %}
-You either need to zoom in max and out OR execute the script upon resetting on your character to see the changes. 
+{% hint style="info" %}
+You either need to zoom in max and out OR execute the script upon resetting on your character to see the changes.
 {% endhint %}
 
+{% code title="headless.lua" overflow="wrap" %}
 ```lua
 -- Modify the head mesh rendering by changing primitive size values to 0
 local head = game.Players.localPlayer.Character.Head
@@ -18,8 +20,11 @@ primitive_ptr_data:setmemoryvalue(0x2ac, "float", 0) -- x
 primitive_ptr_data:setmemoryvalue(0x2ac, "float", 0) -- y
 primitive_ptr_data:setmemoryvalue(0x2ac, "float", 0) -- z
 ```
+{% endcode %}
 
-## Changing LocalPlayer Username (Client-Side)
+### Changing LocalPlayer Username (Client-Side)
+
+{% code title="username.lua" overflow="wrap" fullWidth="false" %}
 ```lua
 -- Access and modify the player's name in memory
 local localplayer = getlocalplayer()
@@ -34,3 +39,4 @@ print(name)
 -- Set a new name in memory
 setmemoryvalue(nameptr_data, 0x0, "string", "Niggachain_AI_Layer_2")
 ```
+{% endcode %}

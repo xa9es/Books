@@ -1,8 +1,12 @@
 # Watermark
-{% hint style="hint" %}
+
+<figure><img src="../../.gitbook/assets/Discord_g7y9JkLlKn.png" alt=""><figcaption><p>ugly ass watermark</p></figcaption></figure>
+
+{% hint style="info" %}
 I'm using imaginary text Size calculation because we do not have actual one yet.
 {% endhint %}
 
+{% code title="watermark.lua" overflow="wrap" %}
 ```lua
 local screen = getscreendimensions()
 local imaginary_text_measure = {x = 15, y = 45}
@@ -46,3 +50,4 @@ rect.Transparency = 0.5
 text.Position = {centerX, centerY}
 text.zIndex = 2
 ```
+{% endcode %}

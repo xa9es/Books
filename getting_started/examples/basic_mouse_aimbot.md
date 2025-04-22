@@ -1,10 +1,14 @@
+# Basic Mouse Aimbot
 
 {% hint style="warning" %}
-These methods are partially 'deprecated', I strongly recommended use better functions  
+These methods are partially 'deprecated'. The Author strongly recommended use better things [Model Data](../../gobals/model_data.md#add-model)&#x20;
 {% endhint %}
 
-# Roblox Lua
-## Expontentional Style
+## Roblox Lua
+
+{% tabs %}
+{% tab title="Expotential" %}
+{% code overflow="wrap" fullWidth="true" %}
 ```lua
 function getclosetplayer()
     local mouse = getmouseposition()
@@ -62,8 +66,11 @@ spawn(function()
     end
 end)
 ```
+{% endcode %}
+{% endtab %}
 
-## Linear Style
+{% tab title="Linear" %}
+{% code overflow="wrap" fullWidth="true" %}
 ```lua
 function getclosetplayer()
     local mouse = getmouseposition()
@@ -122,10 +129,15 @@ spawn(function()
     end
 end)
 ```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
-# LuaU
+## LuaU
 
-## Expontential Style
+{% tabs %}
+{% tab title="Expontential" %}
+{% code overflow="wrap" %}
 ```lua
 function getclosetplayer()
     local mouse = getmouseposition()
@@ -181,8 +193,11 @@ spawn(function()
     end
 end)
 ```
+{% endcode %}
+{% endtab %}
 
-## Linear Style
+{% tab title="Linear" %}
+{% code overflow="wrap" %}
 ```lua
 function getclosetplayer()
     local mouse = getmouseposition()
@@ -238,3 +253,6 @@ spawn(function()
     end
 end)
 ```
+{% endcode %}
+{% endtab %}
+{% endtabs %}

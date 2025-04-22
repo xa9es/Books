@@ -1,6 +1,10 @@
+# Add Model Data To Severe
 
-# Roblox Lua
+<div align="center" data-full-width="false"><figure><img src="../../.gitbook/assets/plasrv_DGnpEKbl2G.gif" alt=""><figcaption><p>Add Local Player to severe</p></figcaption></figure></div>
 
+{% tabs %}
+{% tab title="Roblox Lua" %}
+{% code overflow="wrap" %}
 ```lua
 local localPlayer = game.Players.localPlayer.Character
 
@@ -35,8 +39,11 @@ local data = Create_Model_Data(localPlayer)
 clear_model_data()
 add_model_data(data, "key_1")
 ```
+{% endcode %}
+{% endtab %}
 
-# LuaU
+{% tab title="LuaU" %}
+{% code fullWidth="false" %}
 ```lua
 local localPlayer = getlocalplayer()
 
@@ -71,3 +78,6 @@ local data = Create_Model_Data(localPlayer)
 clear_model_data()
 add_model_data(data, "key_1")
 ```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
