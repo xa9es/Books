@@ -7,7 +7,7 @@
     * [Script Locations](getting_started/scripts_location/README.md)
     * [Lua Styles](getting_started/lua_style/README.md)
     * [Examples](getting_started/examples/README.md)
-        * [Watermark](getting_started/examples/basic_mouse_aimbot.md)
+        * [Watermark](getting_started/examples/watermark.md)
         * [Memory Manipulate](getting_started/examples/memory%20manipulate.md)
         * [Basic Mouse Aimbot](getting_started/examples/basic_mouse_aimbot.md)
 

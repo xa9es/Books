@@ -1,6 +1,15 @@
 ---
 description: Functions for low-level memory access and manipulation.
 ---
+
+{% hint style="warning" %}
+Memory manipulation is extremely powerful but should be used with caution
+Incorrect memory access can cause crashes or unexpected behavior
+Memory offsets may change with Roblox updates
+These functions provide client-side changes only
+Always validate pointers before attempting to read or write memory
+{% endhint %}
+
 # Types
 - `qword` - 64-bit unsigned integer
 - `dword` - 32-bit unsigned integer
@@ -61,10 +70,3 @@ Parameters:
 - `pointer` (number): Memory address pointer
 
 Returns `userdata` representation of the pointer
-
-# Notes
-- Memory manipulation is extremely powerful but should be used with caution
-- Incorrect memory access can cause crashes or unexpected behavior
-- Memory offsets may change with Roblox updates
-- These functions provide client-side changes only
-- Always validate pointers before attempting to read or write memory

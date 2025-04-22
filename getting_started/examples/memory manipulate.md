@@ -5,9 +5,11 @@ Offsets uses in examples might be outdated !
 # Examples
 
 ## Fake Client-Side Headless
+
 {% hint style="hint" %}
 You either need to zoom in max and out OR execute the script upon resetting on your character to see the changes. 
 {% endhint %}
+
 ```lua
 -- Modify the head mesh rendering by changing primitive size values to 0
 local head = game.Players.localPlayer.Character.Head

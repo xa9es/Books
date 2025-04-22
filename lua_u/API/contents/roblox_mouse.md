@@ -1,3 +1,8 @@
+
+{% hint style="hint" %}
+game -> userinputservice
+{% endhint %}
+
 # Get
 
 ## GetMouseLocation
