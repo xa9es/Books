@@ -1,4 +1,4 @@
-# Memory Manipulate
+
 {% hint style="warning" %}
 Offsets uses in examples might be outdated !
 {% endhint %}

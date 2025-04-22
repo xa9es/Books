@@ -1,4 +1,3 @@
-# Basic Mouse Aimbot
 
 {% hint style="warning" %}
 These methods are partially 'deprecated', I strongly recommended use better functions  

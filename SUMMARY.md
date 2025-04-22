@@ -13,28 +13,31 @@
 
 ## Global
 * [Utility](gobals/utility.md)
-* [Keyboard](gobals/keyboard.md)
-* [HTTP](gobals/http.md)
 * [Drawing](gobals/drawing.md)
 * [Model Data](gobals/model_data.md)
+* [Keyboard](gobals/keyboard.md)
+* [HTTP](gobals/http.md)
 * [WebSocket](gobals/websocket.md)
 * [Json](gobals/json.md)
 
-## Roblox lua
-
+## Roblox Lua
 * [API](roblox_lua/API/README.md)
-    * [Gobal](roblox_lua/API/contents/gobal.md)
-    * [Get](roblox_lua/API/contents/get.md)
-    * [Set](roblox_lua/API/contents/set.md)
-    * [Memory](roblox_lua/API/contents/memory.md)
+    * [Instance](roblox_lua/API/contents/instance.md)
+    * [Player](roblox_lua/API/contents/player.md)
+    * [Transform](roblox_lua/API/contents/transform.md)
     * [Mouse](roblox_lua/API/contents/mouse.md)
-    * [Roblox Mouse](roblox_lua/API/contents/roblox_mouse.md)
+    * [Camera](roblox_lua/API/contents/camera.md)
+    * [Humanoid](roblox_lua/API/contents/humanoid.md)
+    * [Memory](roblox_lua/API/contents/memory.md)
+    * [Global](roblox_lua/API/contents/global.md)
 
 ## LuaU
 * [API](lua_u/API/README.md)
-    * [Global](lua_u/API/contents/gobal.md)
-    * [Get](lua_u/API/contents/get.md)
-    * [Set](lua_u/API/contents/set.md)
-    * [Memory](lua_u/API/contents/memory.md)
+    * [Instance](lua_u/API/contents/instance.md)
+    * [Player](lua_u/API/contents/player.md)
+    * [Transform](lua_u/API/contents/transform.md)
     * [Mouse](lua_u/API/contents/mouse.md)
-    * [Roblox Mouse](lua_u/API/contents/roblox_mouse.md)
+    * [Camera](lua_u/API/contents/camera.md)
+    * [Humanoid](lua_u/API/contents/humanoid.md)
+    * [Memory](lua_u/API/contents/memory.md)
+    * [Global](lua_u/API/contents/global.md)
