@@ -4,10 +4,10 @@ description: >-
   logic such as targeting, visualization, and status tracking.
 ---
 
-## Model Data Structure
+# Add Model
 Defines the structure for storing character-related information, used for gameplay logic such as targeting, visualization, and status tracking.
 
-### Fields
+## Fields
 * <kbd><mark style="color:yellow;">**string**</mark></kbd>`Username` : The player's in-game username
 * <kbd><mark style="color:yellow;">**string**</mark></kbd>`Displayname` : The player's display name
 * <kbd><mark style="color:blue;">**number**</mark></kbd>`Userid` : Unique player identifier (Roblox UserId)
@@ -33,9 +33,8 @@ Defines the structure for storing character-related information, used for gamepl
 * <kbd><mark style="color:green;">**table**</mark></kbd>`full_body_data` : Table for all relevant body parts, typically used for closest and random body parts
   * Format: `{ name = "Head", part = userdata }`
 
-### Methods
+## Methods
 
-#### add_model_data
 ```lua
 add_model_data(data, key)
 ```
@@ -60,10 +59,10 @@ local data = {
 add_model_data(data, "key_1")
 ```
 
-## Model Edit Structure
+# Edit Model
 Defines a partial data structure intended to update specific fields of an existing model data.
 
-### Fields
+## Fields
 * <kbd><mark style="color:blue;">**number**</mark></kbd>`RigType` : Rig type (e.g., R6 = 0, R15 = 1)
 * <kbd><mark style="color:orange;">**boolean**</mark></kbd>`Whitelisted` : Whether the player is excluded from hostile checks
 * <kbd><mark style="color:orange;">**boolean**</mark></kbd>`Archenemies` : Designates a hostile player
@@ -74,9 +73,8 @@ Defines a partial data structure intended to update specific fields of an existi
 * <kbd><mark style="color:blue;">**number**</mark></kbd>`MaxHealth` : Updated max health capacity
 * <kbd><mark style="color:blue;">**number**</mark></kbd>`BodyHeightScale` : Updated height scaling value
 
-### Methods
+## Methods
 
-#### edit_model_data
 ```lua
 edit_model_data(data, key)
 ```
@@ -88,7 +86,7 @@ Parameters:
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
 
-Example:
+## Example:
 ```lua
 local edit = {
     Health = 50,
@@ -98,7 +96,8 @@ local edit = {
 edit_model_data(edit, "key_1")
 ```
 
-#### remove_model_data
+# Remove Model
+
 ```lua
 remove_model_data(key)
 ```
@@ -109,7 +108,7 @@ Parameters:
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
 
-#### clear_model_data
+# Clear Model
 ```lua
 clear_model_data()
 ```
@@ -117,7 +116,7 @@ Removes all model data.
 
 Returns <kbd><mark style="color:orange;">**boolean**</mark></kbd> - true if successful
 
-## Local Data Structure
+# Local Model
 Initializes and stores local player-related data from the Lua environment.
 
 ### Fields
@@ -137,9 +136,8 @@ Initializes and stores local player-related data from the Lua environment.
 * <kbd><mark style="color:blue;">**number**</mark></kbd>`MaxHealth` : Maximum health value
 * <kbd><mark style="color:blue;">**number**</mark></kbd>`RigType` : Rig type used (e.g., R6 = 0 or R15 = 1)
 
-### Methods
+## Override Local Model
 
-#### override_local_data
 ```lua
 override_local_data(data)
 ```
@@ -161,7 +159,7 @@ local data = {
 override_local_data(data)
 ```
 
-#### clear_local_data
+## Clear Local Model
 ```lua
 clear_local_data()
 ```
