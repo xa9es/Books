@@ -1,8 +1,7 @@
 
 {% hint style="warning" %}
-Offsets uses in examples might be outdated !
+Offsets uses in examples might be outdated
 {% endhint %}
-# Examples
 
 ## Fake Client-Side Headless
 

@@ -19,6 +19,20 @@ Parameters:
 
 Returns: `{x, y}`
 
+## SmoothMouse_Linear
+```lua
+smoothmouse_linear(origin, point, sensitivity, smoothness)
+```
+Returns smoothed coordinates using linear smoothing algorithm. Recommended for aimbot implementations.
+
+Parameters:
+- `origin`: Current position as {x, y}
+- `point`: Target position as {x, y}
+- `sensitivity`: Sensitivity factor
+- `smoothness`: Smoothness factor
+
+Returns: `{x, y}`
+
 # Set
 
 ## MouseMoveRel
@@ -100,3 +114,5 @@ Returns a boolean indicating if the left mouse button is currently pressed `bool
 isrightpressed()
 ```
 Returns a boolean indicating if the right mouse button is currently pressed `boolean`
+
+# Examples

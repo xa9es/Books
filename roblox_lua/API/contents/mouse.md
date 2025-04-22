@@ -8,6 +8,19 @@ Returns the current mouse cursor position coordinates `{x, y}`
 
 Returns the current mouse delta sensitivity setting `number`
 
+## SmoothMouse_Exponential
+```lua
+smooth_mouse_expontential(origin, point, speed)
+```
+Returns smoothed coordinates using exponential smoothing algorithm. Recommended for aimbot implementations.
+
+Parameters:
+- `origin`: Current position as {x, y}
+- `point`: Target position as {x, y}
+- `speed`: Smoothing speed factor
+
+Returns: `{x, y}`
+
 # Set
 
 ## MouseMoveRel
@@ -90,30 +103,4 @@ isrightpressed()
 ```
 Returns a boolean indicating if the right mouse button is currently pressed `boolean`
 
-
-## SmoothMouse_Exponential
-```lua
-smooth_mouse_expontential(origin, point, speed)
-```
-Returns smoothed coordinates using exponential smoothing algorithm. Recommended for aimbot implementations.
-
-Parameters:
-- `origin`: Current position as {x, y}
-- `point`: Target position as {x, y}
-- `speed`: Smoothing speed factor
-
-Returns: `{x, y}`
-
-## SmoothMouse_Linear
-```lua
-smoothmouse_linear(origin, point, sensitivity, smoothness)
-```
-Returns smoothed coordinates using linear smoothing algorithm. Recommended for aimbot implementations.
-
-Parameters:
-- `origin`: Current position as {x, y}
-- `point`: Target position as {x, y}
-- `sensitivity`: Sensitivity factor
-- `smoothness`: Smoothness factor
-
-Returns: `{x, y}`
+# Examples

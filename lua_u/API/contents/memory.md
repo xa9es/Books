@@ -70,3 +70,5 @@ Parameters:
 - `pointer` (number): Memory address pointer
 
 Returns `userdata` representation of the pointer
+
+# Examples
