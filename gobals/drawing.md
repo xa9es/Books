@@ -40,7 +40,10 @@ All drawing objects share these properties:
 * <kbd><mark style="color:orange;">**boolean**<mark style="color:orange;"></kbd>`Visible` : Controls whether the object is visible
 * <kbd>**function**</kbd>`Remove` : Removes/destroys the drawing object
 * <kbd>**vector3**</kbd>`Color` : RGB color of the object (values range from 0-255)
-* <kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd>`zIndex` : Controls the stacking order (higher values appear on top)
+
+{% include "../.gitbook/includes/numberzindex-controls-the....md" %}
+
+* <kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd> <kbd>Transparency</kbd> : Transparency Level (0-1, where 0 is opaque and 1 is visible)
 
 ## Drawing Objects
 
