@@ -27,3 +27,7 @@ Start by checking out below !
 {% content-ref url="getting_started/" %}
 [getting\_started](getting_started/)
 {% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
