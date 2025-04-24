@@ -87,11 +87,3 @@ instance.Velocity = Vector3.new()
 ```
 
 Sets the velocity of the instance `void`
-
-### CFrameLookAt
-
-```lua
-CFrame.lookAt(Vector3.new(), Vector3.new())
-```
-
-Creates a new CFrame at the first position looking toward the second position `CFrame`
