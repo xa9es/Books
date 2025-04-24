@@ -2,8 +2,6 @@
 description: Functions for WebSocket communication
 ---
 
-# WebSocket
-
 ## Methods
 
 ### WebSocket_Connect

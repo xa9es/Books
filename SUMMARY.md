@@ -14,6 +14,10 @@
     * [Gif](getting_started/examples/Gif_loading.md)
     * [Basic Mouse Aimbot](getting_started/examples/basic_mouse_aimbot.md)
 
+## Hall Of Frames
+* [UI Library](library/README.md)
+  * [kingbob](library/UI/kingbob.md)
+
 ## Global
 
 * [Utility](gobals/utility.md)

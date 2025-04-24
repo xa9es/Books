@@ -2,8 +2,6 @@
 description: Functions for making HTTP requests
 ---
 
-# HTTP
-
 ## Methods
 
 ### HttpGet

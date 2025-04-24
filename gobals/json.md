@@ -2,8 +2,6 @@
 description: Functions for JSON encoding and decoding
 ---
 
-# JSON
-
 ## Methods
 
 ### JSONEncode
