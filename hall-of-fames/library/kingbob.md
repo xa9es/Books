@@ -14,6 +14,10 @@ Expects bugs, issues
 
 ## Initialization
 
+{% hint style="danger" %}
+The link might be outdated
+{% endhint %}
+
 {% code overflow="wrap" %}
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DCHARLESAKAMRGREEN/Severe-Luas/refs/heads/main/Severe%20UI%20Library.lua"))()
