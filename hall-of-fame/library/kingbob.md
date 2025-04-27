@@ -89,6 +89,7 @@ Returns: `Section` object
 ```lua
 Section:Button({
     Name = "Button Name",
+    Tooltip = "Button description",
     Callback = function()
         -- Code to execute when button is clicked
     end
@@ -100,6 +101,7 @@ Creates a clickable button in a section.
 Parameters:
 
 * **Name** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The label for the button
+* **Tooltip** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The description/tooltip text for the button
 * **Callback** <kbd><mark style="color:red;">**function**<mark style="color:red;"></kbd>: Function to execute when button is clicked
 
 #### Toggle
@@ -108,6 +110,7 @@ Parameters:
 Section:Toggle({
     Name = "Toggle Name",
     Default = false,
+    Tooltip = "Toggle description",
     Callback = function(state)
         -- Code to execute when toggle state changes
     end
@@ -120,6 +123,7 @@ Parameters:
 
 * **Name** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The label for the toggle
 * **Default** <kbd><mark style="color:orange;">**boolean**<mark style="color:orange;"></kbd>: Initial state of the toggle (true/false)
+* **Tooltip** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The description/tooltip text for the toggle
 * **Callback** <kbd><mark style="color:red;">**function**<mark style="color:red;"></kbd>: Function to execute when toggle state changes, receives state (<kbd><mark style="color:orange;">**boolean**<mark style="color:orange;"></kbd>) as parameter
 
 #### Slider
@@ -132,6 +136,7 @@ Section:Slider({
     Default = 50,
     Units = "/100",
     Increment = 1,
+    Tooltip = "Slider description",
     Callback = function(value)
         -- Code to execute when slider value changes
     end
@@ -148,7 +153,31 @@ Parameters:
 * **Default** <kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd>: Initial value of the slider
 * **Units** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: Text to display after the value
 * **Increment** <kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd>: Step size for the slider
+* **Tooltip** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The description/tooltip text for the slider
 * **Callback** <kbd><mark style="color:red;">**function**<mark style="color:red;"></kbd>: Function to execute when slider value changes, receives value (<kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd>) as parameter
+
+#### Dropdown
+
+```lua
+local Dropdown1 = Section1:Dropdown({
+    Name = "Dropdown",
+    Default = "Option 1",
+    Tooltip = "Dropdown description",
+    Options = {"Option 1", "Option 2", "Option 3"},
+    Callback = function(Selected)
+        -- Code to execute when selected option changed
+    end
+})
+```
+
+Creates a slider in a section.
+
+Parameters:
+
+* **Name** <kbd><mark style="color:yellow;">**string**<mark 
+* **Default** <kbd><mark style="color:blue;">**string**<mark style="color:blue;"></kbd>: Default value for the dropdown
+* **Name** <kbd><mark style="color:yellow;">**string**<mark 
+* **Callback** <kbd><mark style="color:red;">**function**<mark style="color:red;"></kbd>: Function to execute when selected option changes, receives selected option (<kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd>) as parameter
 
 ### Toggle Methods
 

@@ -28,6 +28,6 @@ Start by checking out below !
 [getting\_started](getting_started/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="hall-of-fame/library" %}
+[Broken link](hall-of-fame/library/)
 {% endcontent-ref %}
