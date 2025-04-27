@@ -174,10 +174,11 @@ Creates a slider in a section.
 
 Parameters:
 
-* **Name** <kbd><mark style="color:yellow;">**string**<mark 
-* **Default** <kbd><mark style="color:blue;">**string**<mark style="color:blue;"></kbd>: Default value for the dropdown
-* **Name** <kbd><mark style="color:yellow;">**string**<mark 
-* **Callback** <kbd><mark style="color:red;">**function**<mark style="color:red;"></kbd>: Function to execute when selected option changes, receives selected option (<kbd><mark style="color:blue;">**number**<mark style="color:blue;"></kbd>) as parameter
+* **Name** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd><mark style="color:yellow;">**&#x20;**</mark><mark style="color:yellow;">**:**</mark> The label for the dropdown
+* **Default** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: Default value for the dropdown
+* **Tooltip** <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The description/tooltip text for the dropdown
+* **Options&#x20;**<kbd><mark style="color:blue;">**array**<mark style="color:blue;"></kbd> <kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>: The array of options for the dropdown
+* **Callback** <kbd><mark style="color:red;">**function**<mark style="color:red;"></kbd>: Function to execute when selected option changes, receives selected option (<kbd><mark style="color:yellow;">**string**<mark style="color:yellow;"></kbd>) as parameter
 
 ### Toggle Methods
 
